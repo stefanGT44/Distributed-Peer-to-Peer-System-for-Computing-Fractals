@@ -1,0 +1,52 @@
+02:31:37 - Starting servent [-1|192.168.0.17|1700]
+02:31:38 - Assigned ID = 2
+02:31:38 - Got servent: 0
+02:31:39 - Sending message [Sender: 2|1||JOIN|Reciever: 0]
+02:31:40 - Got message [Sender: 0|4||WELCOME|Reciever: 2]
+02:31:40 - Servent initialised
+02:31:41 - Got message [Sender: 3|7||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1100], [4|192.168.0.17|1300], [1|192.168.0.17|1400], [6|192.168.0.17|1800], [2|192.168.0.17|1700], [5|192.168.0.17|1600], [3|192.168.0.17|1200]]
+OUT = [[0|192.168.0.17|1100], [4|192.168.0.17|1300], [1|192.168.0.17|1400], [6|192.168.0.17|1800], [2|192.168.0.17|1700]]
+02:31:41 - 0
+02:31:41 - 4
+02:31:41 - 1
+02:31:41 - 6
+02:31:41 - 2
+02:31:41 - 3
+02:31:41 - Sending message [Sender: 2|6||UPDATE|Reciever: 6]
+02:31:41 - Got message [Sender: 5|7||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1100], [4|192.168.0.17|1300], [1|192.168.0.17|1400], [6|192.168.0.17|1800], [2|192.168.0.17|1700], [5|192.168.0.17|1600]]
+OUT = [[0|192.168.0.17|1100], [4|192.168.0.17|1300], [1|192.168.0.17|1400], [6|192.168.0.17|1800], [2|192.168.0.17|1700], [3|192.168.0.17|1200]]
+02:31:41 - 0
+02:31:41 - 4
+02:31:41 - 1
+02:31:41 - 6
+02:31:41 - 2
+02:31:41 - 3
+02:31:41 - 5
+02:31:41 - Sending message [Sender: 2|4||UPDATE|Reciever: 4]
+02:31:41 - Sending message [Sender: 2|3||UPDATE|Reciever: 0]
+02:31:41 - Sending message [Sender: 2|5||UPDATE|Reciever: 1]
+02:31:42 - Got message [Sender: 0|10||MISSING_NODES|Reciever: 2]
+02:31:42 - Got message [Sender: 4|6||MISSING_NODES|Reciever: 2]
+02:31:42 - Got message [Sender: 6|6||MISSING_NODES|Reciever: 2]
+02:31:42 - Sending message [Sender: 2|7||MISSING_NODES|Reciever: 5]
+02:31:43 - Got message [Sender: 1|6||MISSING_NODES|Reciever: 2]
+02:31:44 - Got message [Sender: 0|13||SUBMIT_JOB|Reciever: 2]
+SUBMIT JOB HANDLER  USAO
+JOB: trougao_10, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=500], java.awt.Point[x=795,y=700], java.awt.Point[x=960,y=500]]
+UBACEN NOVI POSAO
+Got JOB!
+Starting WORK!
+02:32:03 - Got message [Sender: 0|19||GET_RESULT|Reciever: 2]
+02:32:04 - Sending message [Sender: 2|8||TELL_RESULT|Reciever: 0]
+02:32:14 - Got message [Sender: 0|25|kvadrat|REGROUPING|Reciever: 2]
+02:32:15 - Sending message [Sender: 2|9|kvadrat|REGROUPING_REPLY|Reciever: 0]
+02:32:18 - Got message [Sender: 0|33||SUBMIT_JOB|Reciever: 2]
+SUBMIT JOB HANDLER  USAO
+JOB: trougao_1, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=500], java.awt.Point[x=960,y=900], java.awt.Point[x=1290,y=500]]
+UBACEN NOVI POSAO
+Got JOB!
+Starting WORK!

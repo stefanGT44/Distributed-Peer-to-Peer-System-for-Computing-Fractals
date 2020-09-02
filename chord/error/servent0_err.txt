@@ -1,0 +1,4 @@
+Exception in thread "Thread-2" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Unknown Source)
+	at cli.CLIParser.run(CLIParser.java:61)
+	at java.lang.Thread.run(Unknown Source)

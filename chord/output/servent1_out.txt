@@ -1,0 +1,114 @@
+23:40:42 - Starting servent [-1|192.168.0.17|1200]
+23:40:42 - Pausing for 5000 ms
+23:40:42 - Assigned ID = 0
+23:40:42 - Servent initialised
+23:40:42 - We are the first node in the network!
+23:40:43 - Got message [Sender: 2|1||JOIN|Reciever: 0]
+23:40:43 - Join request from: 2
+23:40:43 - Got message [Sender: 1|1||JOIN|Reciever: 0]
+23:40:43 - Join request from: 1
+23:40:44 - Got message [Sender: 4|1||JOIN|Reciever: 0]
+23:40:44 - Join request from: 4
+23:40:44 - Got message [Sender: 3|1||JOIN|Reciever: 0]
+23:40:44 - Join request from: 3
+23:40:44 - Sending message [Sender: 0|1||WELCOME|Reciever: 2]
+23:40:44 - Sending message [Sender: 0|2||WELCOME|Reciever: 1]
+23:40:45 - Sending message [Sender: 0|4||WELCOME|Reciever: 3]
+23:40:45 - Sending message [Sender: 0|3||WELCOME|Reciever: 4]
+23:40:45 - Got message [Sender: 1|3||UPDATE|Reciever: 0]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 1
+23:40:45 - 4
+23:40:45 - 3
+23:40:45 - Got message [Sender: 2|3||UPDATE|Reciever: 0]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 1
+23:40:45 - 4
+23:40:45 - 3
+23:40:45 - Got message [Sender: 4|3||UPDATE|Reciever: 0]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 1
+23:40:45 - 4
+23:40:45 - 3
+23:40:46 - Got message [Sender: 3|3||UPDATE|Reciever: 0]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+23:40:46 - 0
+23:40:46 - 2
+23:40:46 - 1
+23:40:46 - 4
+23:40:46 - 3
+23:40:46 - Sending message [Sender: 0|5||MISSING_NODES|Reciever: 1]
+23:40:46 - Sending message [Sender: 0|7||MISSING_NODES|Reciever: 4]
+23:40:46 - Sending message [Sender: 0|6||MISSING_NODES|Reciever: 2]
+23:40:47 - Active servents: 
+23:40:47 - 0
+23:40:47 - 2
+23:40:47 - 1
+23:40:47 - 4
+23:40:47 - 3
+23:40:48 - Got message [Sender: 1|8||SUBMIT_JOB|Reciever: 0]
+SUBMIT JOB HANDLER  USAO
+JOB: trougao_1, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=500], java.awt.Point[x=960,y=900], java.awt.Point[x=1290,y=500]]
+UBACEN NOVI POSAO
+Got JOB!
+MATRICA JESTE NULL
+Starting WORK!
+23:41:08 - Got message [Sender: 1|12||GET_RESULT|Reciever: 0]
+23:41:09 - Sending message [Sender: 0|8||TELL_RESULT|Reciever: 1]
+23:41:19 - Got message [Sender: 5|7||REORGANIZE|Reciever: 0]
+INICIJALIZOVANI PARAMETRI
+[trougao_1] queueSize = 5 activeNodesInGroup = 6
+23:41:19 - Ja vrstimo reorganizaciju
+IPAK NE TREBA DA SE RADI REORGANIZACIJA!!!!!!
+Queue size = 5 + 3 + 1  <= [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600], [5|192.168.0.17|1700]]
+23:41:20 - Got message [Sender: 5|3||UPDATE|Reciever: 0]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600], [5|192.168.0.17|1700]]
+23:41:20 - 0
+23:41:20 - 2
+23:41:20 - 1
+23:41:20 - 4
+23:41:20 - 3
+23:41:20 - 5
+23:41:20 - Got message [Sender: 5|13||REORGANIZE|Reciever: 0]
+23:41:21 - Got message [Sender: 5|7||REORGANIZE|Reciever: 0]
+23:41:22 - Got message [Sender: 5|8||REORGANIZE|Reciever: 0]
+23:41:24 - Got message [Sender: 5|12||GET_STATUS|Reciever: 0]
+23:41:26 - Sending message [Sender: 0|9||TELL_STATUS|Reciever: 5]
+23:41:33 - Got message [Sender: 5|17|kvadrat|REGROUPING|Reciever: 0]
+23:41:34 - Sending message [Sender: 0|10|kvadrat|REGROUPING_REPLY|Reciever: 5]
+23:41:36 - Got message [Sender: 5|18||SUBMIT_JOB|Reciever: 0]
+SUBMIT JOB HANDLER  USAO
+JOB: kvadrat, N = 4, P = 0.4, 1920x1080, points: [java.awt.Point[x=300,y=100], java.awt.Point[x=300,y=900], java.awt.Point[x=1620,y=900], java.awt.Point[x=1620,y=100]]
+UBACEN NOVI POSAO
+Got JOB!
+MATRICA JESTE NULL
+Starting WORK!
+23:41:40 - Got message [Sender: 5|25||GET_STATUS|Reciever: 0]
+23:41:41 - Sending message [Sender: 0|11||TELL_STATUS|Reciever: 5]
+23:42:01 - Got message [Sender: 5|29||LEAVE|Reciever: 0]
+LEAVE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+OUR = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600], [5|192.168.0.17|1700]]
+23:42:01 - Node 5 leaving the network.
+23:42:01 - Current Active Nodes: 
+23:42:01 - Servent 0
+23:42:01 - Servent 2
+23:42:01 - Servent 1
+23:42:01 - Servent 4
+23:42:01 - Servent 3

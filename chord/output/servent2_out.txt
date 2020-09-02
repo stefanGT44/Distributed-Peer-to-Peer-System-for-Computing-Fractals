@@ -1,0 +1,90 @@
+23:40:42 - Starting servent [-1|192.168.0.17|1300]
+23:40:42 - Pausing for 5000 ms
+23:40:42 - Assigned ID = 2
+23:40:42 - Got servent: 0
+23:40:43 - Sending message [Sender: 2|1||JOIN|Reciever: 0]
+23:40:44 - Got message [Sender: 0|1||WELCOME|Reciever: 2]
+23:40:44 - Servent initialised
+23:40:45 - Got message [Sender: 3|4||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [3|192.168.0.17|1600]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 3
+23:40:45 - Sending message [Sender: 2|3||UPDATE|Reciever: 0]
+23:40:45 - Got message [Sender: 1|4||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 3
+23:40:45 - 1
+23:40:45 - Got message [Sender: 4|4||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [1|192.168.0.17|1100], [4|192.168.0.17|1400]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100]]
+23:40:45 - 0
+23:40:45 - 2
+23:40:45 - 3
+23:40:45 - 1
+23:40:45 - 4
+23:40:46 - Sending message [Sender: 2|4||MISSING_NODES|Reciever: 1]
+23:40:46 - Sending message [Sender: 2|5||MISSING_NODES|Reciever: 4]
+23:40:46 - Got message [Sender: 0|6||MISSING_NODES|Reciever: 2]
+23:40:47 - Active servents: 
+23:40:47 - 0
+23:40:47 - 2
+23:40:47 - 3
+23:40:47 - 1
+23:40:47 - 4
+23:40:48 - Got message [Sender: 1|5||SUBMIT_JOB|Reciever: 2]
+SUBMIT JOB HANDLER  USAO
+JOB: trougao_2, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=960,y=100], java.awt.Point[x=1290,y=500], java.awt.Point[x=1620,y=100]]
+UBACEN NOVI POSAO
+Got JOB!
+MATRICA JESTE NULL
+Starting WORK!
+23:41:08 - Got message [Sender: 1|9||GET_RESULT|Reciever: 2]
+23:41:09 - Sending message [Sender: 2|6||TELL_RESULT|Reciever: 1]
+23:41:18 - Got message [Sender: 5|1||JOIN|Reciever: 2]
+23:41:18 - Join request from: 5
+SAMO JEDAN PARALELNI POSAO
+PROSLA NOVA PROVERA
+[trougao_1, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=500], java.awt.Point[x=960,y=900], java.awt.Point[x=1290,y=500]], trougao_2, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=960,y=100], java.awt.Point[x=1290,y=500], java.awt.Point[x=1620,y=100]], trougao_00, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=300,y=100], java.awt.Point[x=465,y=300], java.awt.Point[x=630,y=100]], trougao_01, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=465,y=300], java.awt.Point[x=630,y=500], java.awt.Point[x=795,y=300]], trougao_02, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=100], java.awt.Point[x=795,y=300], java.awt.Point[x=960,y=100]]]
+trougao_1, N = 3, P = 0.5, 1920x1080, points: [java.awt.Point[x=630,y=500], java.awt.Point[x=960,y=900], java.awt.Point[x=1290,y=500]]
+INICIJALIZOVANI PARAMETRI
+[trougao_1] queueSize = 5 activeNodesInGroup = 6
+23:41:18 - Reorganizaciju vrsi cvor: [0|192.168.0.17|1200]
+23:41:19 - Sending message [Sender: 2|8||WELCOME|Reciever: 5]
+23:41:19 - Sending message [Sender: 5|7||REORGANIZE|Reciever: 0]
+23:41:20 - Got message [Sender: 5|4||UPDATE|Reciever: 2]
+UPDATE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+OUT = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+23:41:20 - 0
+23:41:20 - 2
+23:41:20 - 3
+23:41:20 - 1
+23:41:20 - 4
+23:41:20 - 5
+23:41:24 - Got message [Sender: 5|9||GET_STATUS|Reciever: 2]
+23:41:24 - Sending message [Sender: 2|9||TELL_STATUS|Reciever: 5]
+23:41:33 - Got message [Sender: 5|14|kvadrat|REGROUPING|Reciever: 2]
+23:41:34 - Sending message [Sender: 2|10|kvadrat|REGROUPING_REPLY|Reciever: 5]
+23:41:36 - Got message [Sender: 5|19||SUBMIT_JOB|Reciever: 2]
+SUBMIT JOB HANDLER  USAO
+JOB: null
+We are IDLE.
+23:42:00 - Got message [Sender: 5|30||LEAVE|Reciever: 2]
+LEAVE HANDLER
+MSG = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+OUR = [[0|192.168.0.17|1200], [2|192.168.0.17|1300], [3|192.168.0.17|1600], [1|192.168.0.17|1100], [4|192.168.0.17|1400], [5|192.168.0.17|1700]]
+23:42:00 - Node 5 leaving the network.
+23:42:00 - Current Active Nodes: 
+23:42:00 - Servent 0
+23:42:00 - Servent 2
+23:42:00 - Servent 3
+23:42:00 - Servent 1
+23:42:00 - Servent 4

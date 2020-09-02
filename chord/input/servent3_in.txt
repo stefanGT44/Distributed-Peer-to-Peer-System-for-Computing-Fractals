@@ -1,0 +1,2 @@
+pause 5000
+info

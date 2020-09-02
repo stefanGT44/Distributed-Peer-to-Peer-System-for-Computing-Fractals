@@ -1,0 +1,13 @@
+23:40:40 - Bootstrap server started on port: 2000
+23:40:42 - Added first Node
+23:40:42 - Assigning id 1
+23:40:42 - Assigning id 2
+23:40:42 - Assigning id 3
+23:40:42 - Assigning id 4
+23:40:44 - Added active servent 2
+23:40:44 - Added active servent 1
+23:40:45 - Added active servent 3
+23:40:45 - Added active servent 4
+23:41:17 - Assigning id 5
+23:41:19 - Added active servent 5
+23:42:00 - Servent 5 left the network.
