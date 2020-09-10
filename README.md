@@ -1,5 +1,5 @@
 # Distributed-Peer-to-Peer-System-for-Fractal-Computing
-A distributed peer to peer system for computing fractals, with load balancing (generating fractal images). 
+A distributed peer to peer system for computing fractals, with <b>load balancing</b> (generating fractal images). 
 
 ## Overview
 The peer to peer network is a complete graph where communication between nodes is <b>asynchronous and non-FIFO</b>.<br>
