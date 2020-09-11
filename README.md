@@ -1,4 +1,4 @@
-# Distributed-Peer-to-Peer-System-for-Fractal-Computing
+# Distributed-Peer-to-Peer-System-for-Computing-Fractals
 A distributed peer to peer system for computing fractals, with <b>load balancing</b> (generating fractal images). 
 
 ## Overview
