@@ -21,11 +21,11 @@ Each node is assigned a fractal region that it calculates. This region depends o
 A fracal region is the entire polygon or a sub-polygon. For an example:
 If there are 3 nodes in the network and a triangle fractal is being computed, each node gets a different sub-triangle as a region to compute. <br>
 
-![Alt text](frac1.png?raw=true "")<br><br>
+![Alt text](images/frac1.png?raw=true "")<br><br>
 
 If a 4th node joins the network, no rebalacing occurs, 3 nodes are required for a sub-triangle (triangle) to be divided. <br><br>
 
 After the 5th node joins the network, a sub-triangle is divided into 3 smaller sub-triangles.<br>
-![Alt text](frac2.png?raw=true "")<br><br>
+![Alt text](images/frac2.png?raw=true "")<br><br>
 
 # README IN DEVELOPMENT
