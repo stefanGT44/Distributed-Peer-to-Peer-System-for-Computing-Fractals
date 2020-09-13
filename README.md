@@ -17,6 +17,7 @@ The user can also ask for status information of all nodes in the system, which l
 ## System details
 
 ### Load balancing
+
 Each node is assigned a fractal region that it calculates. This region depends on the number of active nodes in the network, and the number of verticies of the polygon from which the fractal is calculated.<br>
 A fracal region is the entire polygon or a sub-polygon. For an example:
 If there are 3 nodes in the network and a triangle fractal is being computed, each node gets a different sub-triangle as a region to compute. <br>
