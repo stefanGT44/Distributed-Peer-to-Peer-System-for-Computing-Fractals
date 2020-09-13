@@ -15,6 +15,10 @@ The user can also ask for status information of all nodes in the system, which l
 
 ## System details
 
+### The network
+The boot node keeps track of all nodes in the network, and has a known static address. <br>
+New nodes must contact to boot node to become a part of the network. The boot node provides the joining node with a random node from the network. These two nodes then exchange information and notify all nodes (with rounds of update messages) in the network to update their active node table. Finally the new node contacts the boot node to conrifm that the joining process was successful (boot node adds it to the list of active nodes).
+
 ### Load balancing
 
 Each node is assigned a fractal region which it computes. This region depends on the number of active nodes in the network and the number of verticies of the polygon from which the fractal is calculated.<br>
