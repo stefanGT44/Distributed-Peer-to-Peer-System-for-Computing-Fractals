@@ -11,7 +11,6 @@ The user can request for an image to be generated (the entire fractal, or a spec
 The user can also ask for status information of all nodes in the system, which lists all active nodes with their work progress up until that moment. <br>
 
 ![Alt text](slika6.png?raw=true "")<br>
-![Alt text](slika0.png?raw=true "")<br>
 ![Alt text](slika3.png?raw=true "")<br>
 
 ## System details
@@ -24,11 +23,10 @@ If there are 3 nodes in the network and a triangle fractal is being computed, ea
 
 ![Alt text](images/frac1.png?raw=true "")<br><br>
 
-If a 4th node joins the network, no rebalacing occurs, 2 new nodes are required to subdivide an existing triangle (sub-triangle). <br><br>
-
+If a 4th node joins the network, no rebalacing occurs, 2 new nodes are required to subdivide an existing triangle (sub-triangle). <br>
 After the 5th node joins the network, a sub-triangle is divided into 3 smaller sub-triangles.<br>
 ![Alt text](images/frac2.png?raw=true "")<br><br>
 
-If multiple fractals are computed concurrently, nodes are equally split among them, and the workload for each fractal is then organized using the above exmplained method. 
+If <b>multiple fractals</b> are computed <b>concurrently</b>, nodes are equally split among them, and the workload for each fractal is then organized using the above exmplained method. 
 
 # README IN DEVELOPMENT
