@@ -29,4 +29,6 @@ If a 4th node joins the network, no rebalacing occurs, 2 new nodes are required 
 After the 5th node joins the network, a sub-triangle is divided into 3 smaller sub-triangles.<br>
 ![Alt text](images/frac2.png?raw=true "")<br><br>
 
+If multiple fractals are computed concurrently, nodes are equally split among them, and the workload for each fractal is then organized using the above exmplained method. 
+
 # README IN DEVELOPMENT
