@@ -8,6 +8,9 @@ When nodes join/leave the network, if it is optimal, <b>the system reorganizes (
 The user can request for an image to be generated (the entire fractal, or a specified part of it) using the computed data up until that moment. <br>
 The user can also ask for status information of all nodes in the system, which lists all active nodes with their work progress up until that moment. <br>
 
-![Alt text](slika6.png?raw=true "")
+#### Generated fractals
+![Alt text](slika6.png?raw=true "")<br>
+![Alt text](slika0.png?raw=true "")<br>
+![Alt text](slika3.png?raw=true "")<br>
 
 # README IN DEVELOPMENT
