@@ -42,9 +42,42 @@ After the 5th node joins the network, a sub-triangle is divided into 3 smaller s
 If <b>multiple fractals</b> are computed <b>concurrently</b>, nodes are equally split among them, and the workload for each fractal is then organized using the above explained method. 
 
 ### Supported commands:
-* status \[X \[id\]\] - 
-* start \[X]
-* result X \[id\]
-* stop
+Arguments in \[\] are optional
+* status \[X \[id\]\] - Shows the work progress of each active node in the system (the fractal job and the fractal region that the node is working on, and the number of iterations it has done). The optional argument X specifies the fractal, and optional argument id the region of the specified fractal X.
+* start X - Starts the job X from the configuration file.
+* result X \[id\] - Generates a PNG image of the specified fractal, or a specified region of the specified fractal if the id is provided.
+* stop - Disconnects a node from the system and shuts down the node program. If provided to the MultipleServentStarter class, the entire system shuts down.
+
+### Properties file (config):
+Parameters are read and set during application launch and cannot be changed during operation.<br><br>
+File structure:<br><br>
+bootstrap=192.168.0.17,2000 - address and port of the bootstrap node<br>
+weaklimit=1000 - not used<br>
+stronglimit=2000 - not used<br>
+servent_count=7 - number of nodes to start<br>
+servent0=1100 - list of nodes with their port number<br>
+servent1=1200<br>
+servent2=1300<br>
+servent3=1400<br>
+servent4=1600<br>
+servent5=1700<br>
+servent6=1800<br>
+servent7=1900<br>
+job_count=4 - list of jobs which the user can start using the CLI<br>
+job0_name=trougao<br>
+job0_N=3 - number of verticies<br>
+job0_P=0.5 - chaos game algorithm parameter<br>
+job0_WH=1920x1080 - image resolution<br>
+job0_points=300,100;960,900;1620,100 - verticy coordinates<br>
+job1_name=kvadrat<br>
+job1_N=4<br>
+job1_P=0.5<br>
+job1_WH=1920x1080<br>
+job1_points=300,100;300,900;1620,900;1620,100<br>
+job2_name=petougao<br>
+job2_N=5<br>
+job2_P=0.3<br>
+job2_WH=1920x1080<br>
+job2_points=670,990;1250,990;1250,390;670,390;90,690<br>
 
 # README IN DEVELOPMENT
