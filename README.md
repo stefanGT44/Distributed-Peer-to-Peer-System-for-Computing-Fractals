@@ -44,10 +44,10 @@ If <b>multiple fractals</b> are computed <b>concurrently</b>, nodes are equally 
 #### Real example:
 Seven nodes are active in the system and working on a triangle fractal.
 The satus command returned the fractal region ID and number of iterations for each node.
-In this example thanks to the region IDs we can see that Servent\[1\] is working on a subtriangle of the original triangle, and the rest six servents are working on the six remaining sub-subtriangles
+In this example thanks to the region IDs we can see that Servent\[1\] is working on a subtriangle of the original triangle, and the rest six servents are working on the six remaining sub-subtriangles. <br>
 ![Alt text](images/dedeasd.png?raw=true "")<br><br>
 
-After starting a square fractal concurrently, the job is rebalanced and now 3 nodes are working on 3 sub-triangles of the original triangle, and 4 nodes are working on the 4 sub-squares of the original square.
+After starting a square fractal concurrently, the job is rebalanced and now 3 nodes are working on 3 sub-triangles of the original triangle, and 4 nodes are working on the 4 sub-squares of the original square. <br>
 ![Alt text](images/dedeasd1.png?raw=true "")<br>
 
 ### Supported commands:
