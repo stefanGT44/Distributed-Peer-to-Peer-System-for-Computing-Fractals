@@ -6,7 +6,7 @@ The peer to peer network is a complete graph where communication between nodes i
 The system can <b>concurrently</b> compute one or more fractals. <br>
 Fractals are computed using the [Chaos game](https://en.wikipedia.org/wiki/Chaos_game) algorithm. <br>
 When nodes join/leave the network or when new fractal jobs are initiated, <b>the system reorganizes (rebalances) the workload</b>. <br>
-Nodes contact the <b>bootstrap node/server</b> for joining and leaving the network. <br>
+A <b>bootstrap node/server</b> is used to connect/disconnect nodes to/from the network. <br>
 The user can request for an image to be generated (the entire fractal, or a specified part of it) using the computed data up until that moment. <br>
 The user can also ask for status information of all nodes in the system, which lists all active nodes with their work progress up until that moment. <br>
 The system supports <b>scripted launching</b>, for running multiple nodes simultaneously and providing input commands to nodes using text files as input. <br>
