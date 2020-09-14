@@ -29,13 +29,13 @@ The process of leaving the network is similar to the joining process. <br>
 
 ### Load balancing
 
-Each node is assigned a fractal region which it computes. This region depends on the number of active nodes in the network and the number of verticies of the polygon from which the fractal is calculated.<br>
-A fracal region is the entire polygon or a sub-polygon. For an example:
+Each node is assigned a fractal region which it computes. This region depends on the number of active nodes in the network and the number of vertices of the polygon from which the fractal is calculated.<br>
+A fractal region is the entire polygon or a sub-polygon. For an example:
 If there are 3 nodes in the network and a triangle fractal is being computed, each node gets a different sub-triangle as a region to compute. <br>
 
 ![Alt text](images/frac1.png?raw=true "")<br><br>
 
-If a 4th node joins the network, no rebalacing occurs. The new node is idle. Two new nodes are required to subdivide an existing triangle (sub-triangle). <br>
+If a 4th node joins the network, no re-balancing occurs. The new node is idle. Two new nodes are required to subdivide an existing triangle (sub-triangle). <br>
 After the 5th node joins the network, a sub-triangle is divided into 3 smaller sub-triangles. Subdivision in to a new depth level occurs only if all regions are on the same depth level.<br>
 ![Alt text](images/frac2.png?raw=true "")<br><br>
 
@@ -43,8 +43,8 @@ If <b>multiple fractals</b> are computed <b>concurrently</b>, nodes are equally 
 
 #### Real example:
 Seven nodes are active in the system and working on a triangle fractal. <br>
-The satus command returned the fractal region ID and number of iterations for each node. <br>
-In this example thanks to the region IDs we can see that Servent\[1\] is working on a subtriangle of the original triangle, and the rest six servents are working on the six remaining sub-subtriangles. <br><br>
+The status command has returned the fractal region ID and number of iterations for each node. <br>
+In this example thanks to the region IDs we can see that Servent\[1\] is working on a sub-triangle of the original triangle, and the rest six servents are working on the six remaining sub-sub-triangles. <br><br>
 ![Alt text](images/dedeasd.png?raw=true "")<br><br>
 
 After starting a square fractal concurrently, the job is rebalanced and now 3 nodes are working on 3 sub-triangles of the original triangle, and 4 nodes are working on the 4 sub-squares of the original square. <br><br>
@@ -89,4 +89,8 @@ job2_P=0.3<br>
 job2_WH=1920x1080<br>
 job2_points=670,990;1250,990;1250,390;670,390;90,690<br>
 
-# README IN DEVELOPMENT
+## Sidenote
+This project was an assignment as a part of the course - Concurrent and Distributed Systems during the 8th semester at the Faculty of Computer Science in Belgrade. All system functionalities were defined in the assignment specifications.
+
+## Contributors
+- Stefan Ginic - <stefangwars@gmail.com>
