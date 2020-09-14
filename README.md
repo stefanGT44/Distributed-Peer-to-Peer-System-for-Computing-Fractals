@@ -15,9 +15,9 @@ The system supports <b>scripted launching</b>, for running multiple nodes simult
 ![Alt text](slika3.png?raw=true "")<br>
 
 ## System details
-To run the system, a MultipleServentStarter class is provided. This class reads the configuration file and starts separate Node programs using the <b>ProcessBuilder</b>.
-For each node program the System.out, System.err and System.in are redirected to files /output/serventID_out.txt, /error/serventID_err.txt and /input/serventID_in.txt, to allow the user to supply all nodes with input commands simultaneously.
-The user can also interact with nodes using the CLI (command line interface).
+To run the system, a MultipleServentStarter class is provided.<br> This class reads the configuration file and starts separate Node programs using the <b>ProcessBuilder</b>.<br>
+For each node program the System.out, System.err and System.in are redirected to files /output/serventID_out.txt, /error/serventID_err.txt and /input/serventID_in.txt, to allow the user to supply all nodes with input commands simultaneously.<br>
+The user can also interact with nodes using the CLI (command line interface).<br>
 The sending of each message is <b>delayed</b> by a small random amount to <b>simulate a realistic distributed system</b> (because the system is tested locally on one machine).
 
 ### The network
