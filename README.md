@@ -18,14 +18,14 @@ The system supports <b>scripted launching</b>, for running multiple nodes simult
 To run the system, a MultipleServentStarter class is provided.<br> This class reads the configuration file and starts separate Node programs using the <b>ProcessBuilder</b>.<br>
 For each node program the System.out, System.err and System.in are redirected to files /output/serventID_out.txt, /error/serventID_err.txt and /input/serventID_in.txt, to allow the user to supply all nodes with input commands simultaneously.<br>
 The user can also interact with nodes using the CLI (command line interface).<br>
-The sending of each message is <b>delayed</b> by a small random amount to <b>simulate a realistic distributed system</b> (because the system is tested locally on one machine).
+The sending of each message is <b>delayed</b> by a small random amount to <b>simulate a realistic distributed system</b> (because the system is tested locally on one machine).<br>
 
 ### The network
-The boot node keeps track of all nodes in the network, and has a known static address. <br>
+The bootstrap node keeps track of all nodes in the network, and has a known static address. <br>
 New nodes in order to join the network must contact the boot node which provides them with a random node from the network. <br>
-The new node exchanges information with the provided node, and a series of update messages are sent in multiple rounds to notify all the existing nodes about the new node. <br>
+The new node exchanges information with the provided node, after whch a series of update messages are sent in multiple rounds to notify all the existing nodes about the new node. <br>
 Finally the new node contacts the boot node to finish the joining process. <br>
-The process of leaving the network is similar to the joining process.
+The process of leaving the network is similar to the joining process. <br>
 
 ### Load balancing
 
