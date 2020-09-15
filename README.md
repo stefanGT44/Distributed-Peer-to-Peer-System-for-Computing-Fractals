@@ -35,7 +35,7 @@ If there are 3 nodes in the network and a triangle fractal is being computed, ea
 
 ![Alt text](images/frac1.png?raw=true "")<br><br>
 
-If a 4th node joins the network, no re-balancing occurs. The new node is idle. Two new nodes are required to subdivide an existing triangle (sub-triangle). <br>
+If a 4th node joins the network, no re-balancing occurs (two new nodes are required to subdivide an existing triangle (sub-triangle)). The new node is idle. <br>
 After the 5th node joins the network, a sub-triangle is divided into 3 smaller sub-triangles. Subdivision in to a new depth level occurs only if all regions are on the same depth level.<br>
 ![Alt text](images/frac2.png?raw=true "")<br><br>
 
